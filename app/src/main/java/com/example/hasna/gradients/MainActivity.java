@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
           public void onClick(View view) {
               if(view.getId()==R.id.button1)
               {
+                  //kkkk
                   isButtonClicked= !isButtonClicked;
                   view.setBackgroundResource(isButtonClicked ? R.drawable.button_clicked : R.drawable.button_style);
               }
